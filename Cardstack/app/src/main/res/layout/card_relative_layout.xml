@@ -21,7 +21,7 @@
         <ImageView
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@mipmap/heartIcon"/>
+            android:src="@mipmap/heart_icon"/>
 
     </LinearLayout>
 
@@ -32,7 +32,7 @@
         android:layout_height="110dp"
         android:layout_centerHorizontal="true"
         android:layout_centerVertical="true"
-        android:src="@mipmap/heartIcon"/>
+        android:src="@mipmap/heart_icon"/>
 
 
     <LinearLayout
@@ -47,7 +47,7 @@
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:rotation="180"
-            android:src="@mipmap/heartIcon"/>
+            android:src="@mipmap/heart_icon"/>
 
         <TextView
             android:layout_width="wrap_content"

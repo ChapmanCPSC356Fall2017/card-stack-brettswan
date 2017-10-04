@@ -25,7 +25,7 @@
         <ImageView
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@mipmap/heartIcon"
+            android:src="@mipmap/heart_icon"
             android:id="@+id/iv_top_left_suit"/>
 
     </LinearLayout>
@@ -40,7 +40,7 @@
         android:layout_height="0dp"
         android:layout_weight="30"
         android:layout_gravity="center"
-        android:src="@mipmap/heartIcon"
+        android:src="@mipmap/heart_icon"
         android:id="@+id/iv_center_suit"/>
 
     <Space
@@ -60,7 +60,7 @@
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:rotation="180"
-            android:src="@mipmap/heartIcon"
+            android:src="@mipmap/heart_icon"
             android:id="@+id/iv_bot_right_suit"/>
 
         <TextView

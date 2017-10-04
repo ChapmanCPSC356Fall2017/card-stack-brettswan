@@ -66,36 +66,36 @@ public class MainActivity extends AppCompatActivity {
             }
 
             if (cardSuit == Suit.HEART) {
-                topLeftSuit.setImageResource(R.mipmap.heartIcon);
-                centerSuite.setImageResource(R.mipmap.heartIcon);
-                botRightSuite.setImageResource(R.mipmap.heartIcon);
+                topLeftSuit.setImageResource(R.mipmap.heart_icon);
+                centerSuite.setImageResource(R.mipmap.heart_icon);
+                botRightSuite.setImageResource(R.mipmap.heart_icon);
 
                 topLeftText.setTextColor(ContextCompat.getColor(getApplicationContext(), android.R.color.holo_red_light));
                 botRightText.setTextColor(ContextCompat.getColor(getApplicationContext(), android.R.color.holo_red_light));
             }
 
             else if (cardSuit == Suit.DIAMOND) {
-                topLeftSuit.setImageResource(R.mipmap.diamondIcon);
-                centerSuite.setImageResource(R.mipmap.diamondIcon);
-                botRightSuite.setImageResource(R.mipmap.diamondIcon);
+                topLeftSuit.setImageResource(R.mipmap.diamond_icon);
+                centerSuite.setImageResource(R.mipmap.diamond_icon);
+                botRightSuite.setImageResource(R.mipmap.diamond_icon);
 
                 topLeftText.setTextColor(ContextCompat.getColor(getApplicationContext(), android.R.color.holo_red_light));
                 botRightText.setTextColor(ContextCompat.getColor(getApplicationContext(), android.R.color.holo_red_light));
             }
 
             else if (cardSuit == Suit.SPADE) {
-                topLeftSuit.setImageResource(R.mipmap.spadeIcon);
-                centerSuite.setImageResource(R.mipmap.spadeIcon);
-                botRightSuite.setImageResource(R.mipmap.spadeIcon);
+                topLeftSuit.setImageResource(R.mipmap.spade_icon);
+                centerSuite.setImageResource(R.mipmap.spade_icon);
+                botRightSuite.setImageResource(R.mipmap.spade_icon);
 
                 topLeftText.setTextColor(ContextCompat.getColor(getApplicationContext(), android.R.color.black));
                 botRightText.setTextColor(ContextCompat.getColor(getApplicationContext(), android.R.color.black));
             }
 
             else if (cardSuit == Suit.CLUBS) {
-                topLeftSuit.setImageResource(R.mipmap.clubIcon);
-                centerSuite.setImageResource(R.mipmap.clubIcon);
-                botRightSuite.setImageResource(R.mipmap.clubIcon);
+                topLeftSuit.setImageResource(R.mipmap.club_icon);
+                centerSuite.setImageResource(R.mipmap.club_icon);
+                botRightSuite.setImageResource(R.mipmap.club_icon);
 
                 topLeftText.setTextColor(ContextCompat.getColor(getApplicationContext(), android.R.color.black));
                 botRightText.setTextColor(ContextCompat.getColor(getApplicationContext(), android.R.color.black));
@@ -153,33 +153,33 @@ public class MainActivity extends AppCompatActivity {
         }
 
         if (cardSuit == Suit.HEART){
-            topLeftSuit.setImageResource(R.mipmap.heartIcon);
-            centerSuite.setImageResource(R.mipmap.heartIcon);
-            botRightSuite.setImageResource(R.mipmap.heartIcon);
+            topLeftSuit.setImageResource(R.mipmap.heart_icon);
+            centerSuite.setImageResource(R.mipmap.heart_icon);
+            botRightSuite.setImageResource(R.mipmap.heart_icon);
             topLeftText.setTextColor(ContextCompat.getColor(getApplicationContext(),android.R.color.holo_red_light));
             botRightText.setTextColor(ContextCompat.getColor(getApplicationContext(),android.R.color.holo_red_light));
         }
 
         else if (cardSuit == Suit.DIAMOND){
-            topLeftSuit.setImageResource(R.mipmap.diamondIcon);
-            centerSuite.setImageResource(R.mipmap.diamondIcon);
-            botRightSuite.setImageResource(R.mipmap.diamondIcon);
+            topLeftSuit.setImageResource(R.mipmap.diamond_icon);
+            centerSuite.setImageResource(R.mipmap.diamond_icon);
+            botRightSuite.setImageResource(R.mipmap.diamond_icon);
             topLeftText.setTextColor(ContextCompat.getColor(getApplicationContext(),android.R.color.holo_red_light));
             botRightText.setTextColor(ContextCompat.getColor(getApplicationContext(),android.R.color.holo_red_light));
         }
 
         else if (cardSuit == Suit.SPADE){
-            topLeftSuit.setImageResource(R.mipmap.spadeIcon);
-            centerSuite.setImageResource(R.mipmap.spadeIcon);
-            botRightSuite.setImageResource(R.mipmap.spadeIcon);
+            topLeftSuit.setImageResource(R.mipmap.spade_icon);
+            centerSuite.setImageResource(R.mipmap.spade_icon);
+            botRightSuite.setImageResource(R.mipmap.spade_icon);
             topLeftText.setTextColor(ContextCompat.getColor(getApplicationContext(),android.R.color.black));
             botRightText.setTextColor(ContextCompat.getColor(getApplicationContext(),android.R.color.black));
         }
 
         else if (cardSuit == Suit.CLUBS){
-            topLeftSuit.setImageResource(R.mipmap.clubIcon);
-            centerSuite.setImageResource(R.mipmap.clubIcon);
-            botRightSuite.setImageResource(R.mipmap.clubIcon);
+            topLeftSuit.setImageResource(R.mipmap.club_icon);
+            centerSuite.setImageResource(R.mipmap.club_icon);
+            botRightSuite.setImageResource(R.mipmap.club_icon);
             topLeftText.setTextColor(ContextCompat.getColor(getApplicationContext(),android.R.color.black));
             botRightText.setTextColor(ContextCompat.getColor(getApplicationContext(),android.R.color.black));
         }
